@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TcpClient</class>
+ <widget class="QWidget" name="TcpClient">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>341</width>
+    <height>216</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>TcpClient</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="font">
+        <font>
+         <pointsize>22</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>用户名：</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit_username">
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="1" column="0">
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLabel" name="label_2">
+       <property name="font">
+        <font>
+         <pointsize>22</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>密  码：</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit_pwd">
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="echoMode">
+        <enum>QLineEdit::Password</enum>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="2" column="0">
+    <widget class="QPushButton" name="pushButton_login">
+     <property name="font">
+      <font>
+       <pointsize>24</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>登录</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0">
+    <layout class="QHBoxLayout" name="horizontalLayout_3">
+     <item>
+      <widget class="QPushButton" name="pushButton_reg">
+       <property name="font">
+        <font>
+         <pointsize>20</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>注册</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_3">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_logout">
+       <property name="font">
+        <font>
+         <pointsize>20</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>注销</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
