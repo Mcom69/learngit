@@ -1,3 +1,3 @@
 # C++项目
 
-基于Qt利用SQLite数据库，Tcp Socket网络编程
+多线程+Tcp Socket网络编程+数据库+面向对象编程
